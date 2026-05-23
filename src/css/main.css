@@ -1,0 +1,58 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 20px center;
+    background-size: 343px 764px;    
+    height: 812px;
+}
+.home-container{
+    padding: 20px 16px;
+}
+.home-title{
+font-family: "Fraunces", sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fffcf9;
+    text-shadow: 4px 4px 8px 0 rgba(62, 59, 58, 0.6);
+    width: 298px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+}
+.home-text{
+    font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.5;
+        text-align: right;
+        color: #fffcf9;
+opacity: 0.7;
+width: 207px;
+margin-top: 276px;
+margin-left: 114px;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+    background-repeat: no-repeat;
+    background-position: top 32px center;
+    background-size: 1312px 736px;    
+height: 800px;
+}
+.home-container{
+    padding: 32px 64px;
+}
+.home-title{
+font-size: 80px;
+    width: 100%;
+    margin-top: 235px;
+}
+.home-text{
+width: 396px;
+margin-top: 320px;
+margin-left: 80px;
+}    
+}
