@@ -75,3 +75,152 @@ margin-left: 80px;
     display: block;
 }
 }
+/* How to Play */
+.how-section{
+    background: #e5d8cb;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.how-item{
+    background-image: url("/img/how/one-mob.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 343px;
+        height: 344px;
+        position: relative;
+}
+.how-text{
+border-radius: 24px;
+    padding: 16px;
+    width: 186px;
+    height: 144px;
+    background: #f5efe7;
+    display: flex;
+    flex-direction: column;
+gap: 16px;
+position: absolute;
+    bottom: 0;
+    right:0;
+}
+.how-item-title{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #3e3b3a;
+    text-align: left;
+}
+.how-item-description{
+    font-weight: 400;
+    color: #898481;
+    text-align: left;
+}
+.h2{
+background-image: url("/img/how/two-mob.png");
+height: 343px;
+}
+.ht2{
+width: 223px;
+    height: 120px;
+    left: 0;
+}
+.h3 {
+    background-image: url("/img/how/three-mob.png");
+    height: 343px;
+}
+
+.ht3 {
+width: 172px;
+    height: 144px;
+top: 0;
+    right: 0;
+}
+.h4 {
+    background-image: url("/img/how/four-mob.png");
+    height: 341px;
+}
+
+.ht4 {
+width: 204px;
+    height: 120px;
+    top: 0;
+    left: 0;
+}
+.h5 {
+    background-image: url("/img/how/five-mob.png");
+    height: 313px;
+}
+
+.ht5 {
+width: 220px;
+    height: 120px;
+    bottom: 0;
+    left: 0;
+}
+@media only screen and (min-width: 1440px) {
+.how-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+.how-item{
+    background-image: url("/img/how/one-desk.png");
+width: 400px;
+    height: 400px;
+}
+.how-text{
+width: 228px;
+    height: 120px;
+}
+
+.h2{
+background-image: url("/img/how/two-desk.png");
+width: 400px;
+    height: 400px;
+}
+.ht2{
+width: 223px;
+    height: 120px;
+    left: 0;
+    top: 0;
+}
+.h3 {
+    background-image: url("/img/how/three-desk.png");
+width: 400px;
+    height: 400px;
+}
+
+.ht3 {
+width: 220px;
+    height: 120px;
+}
+.h4 {
+    background-image: url("/img/how/four-desk.png");
+width: 590px;
+    height: 450px;
+}
+
+.ht4 {
+width: 220px;
+    height: 120px;
+    top: 0;
+left: 62%;
+
+}
+.h5 {
+    background-image: url("/img/how/five-desk.png");
+width: 590px;
+    height: 450px;
+}
+
+.ht5 {
+width: 220px;
+    height: 120px;
+    bottom: 0;
+    left: 0;
+}    
+}
