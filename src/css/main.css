@@ -421,3 +421,11 @@ display: none;
     left: 9%;
  }
 }
+/* Contact */
+.contact-link{
+    margin-top: 32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
