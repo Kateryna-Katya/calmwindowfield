@@ -1,0 +1,95 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+.background {
+    font-size: 14px;
+    text-align: left;
+}
+
+.privacy-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+font-family: "Fraunces", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #898481;
+    text-align: center;
+    background: none;
+    width: auto;
+}
+
+.policy-subtitle {
+font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #898481;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.article {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.policy-site {
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.break {
+    word-break: break-all;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+
+.policy-span {
+    font-weight: 700;
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 177px;
+        padding-right: 177px;
+    }
+    .privacy-title {
+font-size: 48px;
+margin-bottom: 64px;
+    }
+}
